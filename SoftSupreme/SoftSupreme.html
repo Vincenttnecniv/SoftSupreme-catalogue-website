@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SoftSupreme</title>
+
+	<link rel="stylesheet" href="SSstylesheet.css">
+	<script type='text/javascript' src="script.js" async></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	</script>
+</head>
+
+<body>
+	<br>
+	<div class="links">
+		<a href="yourCart.html">Go to cart</a><br>
+	</div>
+
+	<div class="links">
+		<a href="Order.html">Order here</a><br>
+	</div>
+
+	<div class="links">
+		<a href="Aboutus.html">More about us</a>
+	</div><br>
+	<div class="container">
+		<h1><u>Welcome to Soft Supreme.</u></h1>
+		<p>We hope to find you the best bed to which sparks your intrests.</p>
+		<p>A soft nights sleep, is all you need.</p>
+
+		<h2>Our variety of beds.</h2>
+		<p>At Soft Supreme we have 5 types of beds. </p>
+	</div>
+
+	<h1><i class="fa fa-shopping-cart"></i></h1>
+	<section class="container content-section">
+		<div class="shop-items">
+			<div class="shop-item1">
+				<span class="shop-item-title">
+					<h2>King-Size Bed.</h2>
+				</span>
+				<img class="shop-item-image" src="King.jpg" alt="bed">
+				<div class="shop-item-details">
+					<span class="shop-item-price">Price: R 7 999</span>
+					<input type="button" value="Add to cart"
+						onclick="AddtoCart('King-Size Bed.','Our widest bed.',7999)">
+					<a href="kingSizeBedPage.html">See More...</a>
+				</div>
+			</div>
+		</div>
+
+		<br>
+		<br>
+
+		<div class="shop-items">
+			<div class="shop-item2">
+				<span class="shop-item-title">
+					<h2>Convertible Bed.</h2>
+				</span>
+				<img class="shop-item-image" src="Convertible.jpg" alt="bed">
+				<div class="shop-item-details">
+					<span class="shop-item-price">Price: R 5 999</span>
+					<input type="button" value="Add to cart"
+						onclick="AddtoCart('Convertible Bed.','A bed that can change into a couch.',5999)">
+					<a href="convertibleBed.html">See More...</a>
+				</div>
+			</div>
+		</div>
+
+		<br>
+		<br>
+
+		<div class="shop-items"></div>
+		<div class="shop-item3">
+			<span class="shop-item-title">
+				<h2>Round Bed.</h2>
+			</span>
+			<img class="shop-item-image" src="Round.jpg" alt="bed">
+			<div class="shop-item-details">
+				<span class="shop-item-price">Price: R 6 399</span>
+				<input type="button" value="Add to cart"
+					onclick="AddtoCart('Round Bed.','A very fun and extravagant bed.',6399)">
+				<a href="roundBed.html">See More...</a>
+			</div>
+		</div>
+		</div>
+		<br>
+		<br>
+
+		<div class="shop-items">
+			<div class="shop-item4">
+				<span class="shop-item-title">
+					<h2>Qeeun-Size Bed.</h2>
+				</span>
+				<img class="shop-item-image" src="Qeeun.jpg" alt="bed">
+				<div class="shop-item-details">
+					<span class="shop-item-price">Price: R 4 599</span>
+					<input type="button" value="Add to cart"
+						onclick="AddtoCart('Qeeun-Size Bed.','The top seller.',4599)">
+					<a href="qeeunSizedBed.html">See More...</a>
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
+
+		<div class="shop-items">
+			<div class="shop-item5">
+				<span class="shop-item-title">
+					<h2>Hanging Bed.</h2>
+				</span>
+				<img class="shop-item-image" src="Hanging.jpg" alt="bed">
+				<div class="shop-item-details">
+					<span class="shop-item-price">Price: R 14 999</span>
+					<input type="button" value="Add to cart"
+						onclick="AddtoCart('Hanging Bed.','A bed that hangs from a roof/pillar, ect.',14999)">
+					<a href="hangingBed.html">See More...</a>
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<br><br><br><br>
+
+
+	<table cellpadding="4" cellspacing="4">
+		<td valign="top">
+			<table cellpadding="4" cellspacing="4" id="orderedProductsTbl">
+				<thead>
+					<tr>
+						<td>
+							Name
+						</td>
+						<td>
+							Short Discription
+						</td>
+						<td>
+							Price(In Rand)
+						</td>
+					</tr>
+				</thead>
+				<tbody id="orderedProductsTblBody">
+
+				</tbody>
+				<tfoot>
+					<tr>
+						<td>
+							Total =
+						</td>
+						<td colspan="3" id="cart_total">
+						</td>
+					</tr>
+				</tfoot>
+			</table>
+		</td>
+		</tr>
+	</table>
+
+
+</body>
+
+</html>

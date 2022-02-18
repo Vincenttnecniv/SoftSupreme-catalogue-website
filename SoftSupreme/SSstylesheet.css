@@ -1,0 +1,297 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #358597;
+	font-family: Serif;
+}
+
+button {
+	font-family: Times;
+	border-style: solid;
+	border-color: gold;
+	color: #fff;
+	background-color: grey;
+	padding: 5px;
+	border-width: 2px;
+}
+
+h1 {
+	color: White;
+	font-family: Courier New;
+	font-size: 50px;
+	text-align: center;
+}
+
+H2 {
+	color: whitesmoke;
+	font-size: 40px;
+	font-family: Courier New;
+	text-align: center;
+}
+
+h3 {
+	color: black;
+	font-size: 34px;
+	text-align: center;
+}
+
+h4 {
+	color: #358597;
+	font-size: 34px;
+	text-align: center;
+}
+
+p {
+	font-size: 23px;
+	color: white;
+	text-align: center;
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+
+.container {
+	text-align: center;
+}
+
+.column img {
+	width: 67%;
+	float: unset;
+	padding: 10px;
+	border: 0, 1px solid;
+	transition: transform .2s;
+}
+
+.column img:hover {
+	transform: scale(1.47);
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.form-horizontal {
+	text-align: center;
+	height: auto;
+	font-size: 237%;
+
+}
+
+input {
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+
+option {
+	width: 100%;
+}
+
+.form-group {
+
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+
+select {
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+
+
+th,
+td {
+	color: white;
+	text-align: justify;
+	padding: 13px;
+	font-size: 24px;
+}
+
+table {
+	width: 95%;
+	border: 0, 1px solid;
+	text-align: center;
+}
+
+#review {
+	border: 5px solid #358597;
+	background-color: darkgray;
+	height: 225px;
+	width: 300px;
+	margin: auto;
+	padding: 15px;
+	float: none;
+}
+
+#thereview {
+	border: 5px solid darkgray;
+	background-color: #358597;
+	height: 500px;
+	width: 500px;
+	margin: auto;
+	float: none;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+body {
+	animation: change 10s infinite;
+}
+
+@keyframes change {
+	0% {
+		background-color: #ecf6f8;
+	}
+
+	10% {
+		background-color: #b4dce4;
+	}
+
+	20% {
+		background-color: #7bc1d1;
+	}
+
+	30% {
+		background-color: #55afc3;
+	}
+
+	40% {
+		background-color: #3c96aa;
+	}
+
+	50% {
+		background-color: #21535e;
+	}
+
+	60% {
+		background-color: #143239;
+	}
+
+	70% {
+		background-color: #0d2126;
+	}
+
+	80% {
+		background-color: #286471;
+	}
+
+	90% {
+		background-color: #55afc3;
+	}
+
+	100% {
+		background-color: #8ecad7;
+	}
+}
+
+img#QEEUN {
+	filter: drop-shadow(8px 8px 10px gray);
+}
+
+img#KING {
+	filter: drop-shadow(8px 8px 10px gray);
+}
+
+.links {
+	width: 125px;
+	padding: 10px;
+}
+
+a {
+	font-family: Times;
+	border-style: inset;
+	border-color: gold;
+	color: black;
+	background-color: grey;
+	padding: auto;
+}
+
+.shop-items {
+	justify-content: space-around;
+}
+
+.drpdwn {
+	width: 300px
+}
+
+.shop-item-price {
+	color: greenyellow;
+	padding: 20px;
+}
+
+.shop-item-image {
+	width: 300px;
+	height: auto;
+}
+
+input {
+	font-family: Times;
+	border-style: solid;
+	border-color: gold;
+	border-width: 2px;
+	color: #fff;
+	background-color: grey;
+	padding: 5px;
+}
+
+select {
+	font-family: Times;
+	border-style: solid;
+	border-color: gold;
+	color: #fff;
+	background-color: grey;
+	padding: 5px;
+	border-width: 2px;
+}
+
+body {
+	padding: 3px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+div#nav {
+	position: relative;
+}
+
+div#nav a {
+	padding: 5px 15px 5px;
+}
+
+.dropdown-toggle {
+	padding: 0;
+	background: #777;
+}
+
+ul.dropdown {
+	display: none;
+	position: absolute;
+	top: 100%;
+	margin-top: 5px;
+	padding: 5px 5px 0 0;
+	background: #777;
+}
+
+ul.dropdown li {
+	list-style-type: none;
+}
+
+ul.dropdown li a {
+	text-decoration: none;
+	padding: 0em 1em;
+	display: block;
+}

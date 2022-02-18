@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Place Your Order</title>
+  <link rel="stylesheet" href="SSstylesheet.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+  <div class="links">
+    <a href="SoftSupreme.html">Go to homepage</a><br>
+  </div>
+
+  <form class="form-horizontal">
+    <label class="col-sm-2 control-label">Name & Surname:</label>
+    <div class="col-sm-10">
+      <input type="text"><br>
+    </div>
+
+    <label class="col-sm-2 control-label">Contact Number</label>
+    <div class="col-sm-10">
+      <input type="number"><br>
+    </div>
+
+    <label class="col-sm-2 control-label">ID Number</label>
+    <div class="col-sm-10">
+      <input type="number"><br>
+    </div>
+
+    <label class="col-sm-2 control-label">Enter Your Discount Coupon Pin Here:</label>
+    <div class="col-sm-10">
+      <input class="discount" type="number"><br>
+    </div>
+
+
+    <label class="col-sm-2 control-label">Your Order</label>
+    <div class="col-sm-10">
+      <select>
+        <option value="King-size bed">King-size bed</option>
+        <option value="Hanging Bed">Hanging Bed</option>
+        <option value="Convertible Bed">Convertible Bed</option>
+        <option value="Round Bed">Round Bed</option>
+        <option value="Qeeun-sized bed">Qeeun-sized bed</option>
+
+        <br>
+
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label class="col-sm-2 control-label">Collection or Delivery </label>
+      <div class="col-sm-10">
+        <select>
+          <option value="card">Collection</option>
+          <option value="cash">Delivery </option>
+          <br><br><br>
+      </div>
+      </select>
+
+      <div class="form-group">
+        <!--Dropdown-list using JQeury-->
+        <label class="col-sm-2 control-label">Card or Cash or EFT.</label>
+        <div class="col-sm-10">
+          <select id='payment'>
+            <option value="Card">Card</option>
+            <option value="Cash">Cash</option>
+            <option value="EFT">EFT</option>
+          </select>
+        </div>
+        <br><br>
+
+        <label class="col-sm-2 control-label">Choose your a shipping company.(If you buy online, in RSA.)</label>
+        <div class="col-sm-10">
+          <select>
+            <option value="11">The Courier Guy.</option>
+            <option value="12">PostNet.</option>
+            <option value="13">MDS Collivery.</option>
+            <option value="14">Aerospeed Couriers</option>
+            <br>
+          </select>
+          <br>
+        </div>
+
+        <br>
+        <label class="col-sm-2 control-label">Choose your a shipping company.(If you buy online, outside RSA.)</label>
+        <div class="col-sm-10">
+          <select>
+            <option value="11">Maersk</option>
+            <option value="12">Mediterranean Shipping Company. </option>
+            <option value="13">COSCO Shipping Lines. </option>
+            <option value="14">CMA CGM Group. </option>
+            <br>
+          </select>
+          <br>
+        </div>
+
+        <div class="form-group">
+          <div class="col-sm-10" col-sm-push-2>
+            <button type="button" id="reference-number" onclick=confirmOrder()>Confirm Order</button>
+          </div>
+  </form>
+  <br><br><br><br>
+
+
+
+  <img src="business.jpg" alt="Show/Hide Image" id="myImg" />
+  <button type="button" class="btn77">Show/Hide Image</button>
+
+  </select>
+</body>
+
+</html>

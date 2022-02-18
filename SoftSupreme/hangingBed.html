@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="SSstylesheet.css">
+</head>
+
+<body>
+
+    <div class="links">
+        <a href="SoftSupreme.html">Go to homepage</a><br>
+    </div>
+
+    <h1>Please click on the photo to see the spesification of the beds.</h1>
+    <h2>When the picture is hovered over it wil grow.</h2>
+
+    <h2>Hanging Bed.</h2>
+    <div class="column">
+        <img src="Hanging.jpg" alt="bed" onClick=myFunction2()>
+        <input type="button" value="Add to cart"
+            onclick="AddtoCart('Hanging Bed.','A bed that hangs from a roof/pillar, ect.',14999)">
+        <p id="HANGING"></p>
+
+        <table cellpadding="4" cellspacing="4">
+            <h1>Your Cart !</h1>
+            <td valign="top">
+                <table cellpadding="4" cellspacing="4" id="orderedProductsTbl">
+                    <thead>
+                        <tr>
+                            <td>
+                                Name
+                            </td>
+                            <td>
+                                Short Discription
+                            </td>
+                            <td>
+                                Price(In Rand)
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody id="orderedProductsTblBody">
+
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>
+                                Total =
+                            </td>
+                            <td colspan="3" id="cart_total">
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </td>
+            </tr>
+        </table>
+
+    </div>
+</body>
+
+</html>

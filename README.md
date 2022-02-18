@@ -1,6 +1,6 @@
-*!NOTE!*   L = Line Eg. L 1 = Line 1   *!NOTE!*
+_**!NOTE!   L = Line Eg. L 1 = Line 1   !NOTE!**_
 
-Table of Contents:
+*Table of Contents*:
 L10 = Project name;
 L12 = Description of project;
 L16 = Installation section;
